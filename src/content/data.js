@@ -27,8 +27,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'dupperanalytics.jpg',
-    year: '2021',
-    title: 'Dupper Analytics Cloud-Based Solutions 2.0',
+    year: '2021...',
+    title: 'DACS 2.0',
     cat: 'Data Analytics',
     sub: 'Dupper Analytics',
     text: 'Developing cloud-based solutions for data analytics to help companies navigate an increasingly data-driven world.',
@@ -37,17 +37,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'connect.jpg',
-    year: '2020-2021',
+    year: '2020...',
     title: 'CompsciConnect',
     cat: 'Social Connections',
     sub: 'Connecting students with computer science',
-    text: 'Platform for connecting middle school, high school, and university students with computer science opportunities and competitions around them while also providing them with the knowledge and resources to be successful.',
+    text: 'Platform for connecting middle school, high school, and university students with computer science opportunities and competitions near them while also providing them with coursework to be successful.',
     url: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'gamescreenshot.jpg',
-    year: '2020-2021',
+    year: '2020...',
     title: 'Untitled',
     cat: 'Game Design',
     sub: 'To Be Released On Steam',
@@ -67,11 +67,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'killerqueen.jpg',
-    year: '2019-2021',
+    year: '2019...',
     title: 'CTFs and Cybersecurity',
     cat: 'Cybersecurity',
-    sub: 'Cybersecurity Competitors and CTF Hosters/Challenge Designers',
-    text: 'Founder and Captain of Killer Queen, a Nationally Ranked Cybersecurity Team with recognition from esteemed sources such as Carnegie Mellon University, AFA CyberPatriot, and the National Cyber Scholarship Foundation. Hosting own CTF soon!',
+    sub: 'Cybersecurity Competitor and Designer',
+    text: 'Founder and Captain of Killer Queen, a nationally ranked cybersecurity team with recognition from esteemed sources such as Carnegie Mellon University, CyberPatriot, and the NCS Foundation. Hosting own CTF soon!',
     url: 'https://ctftime.org/team/89667', // if no repo, the button will not show up
     //url2: 'https://cylab.cmu.edu/news/2021/04/23-picoCTF2021.html',
     //url3: 'https://www.nationalcyberscholarship.org/winners-2021',
@@ -80,11 +80,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    year: '2019-2021',
+    year: '2019...',
     title: 'Competitive Programming',
-    cat: 'Programming',
-    sub: 'My First Project',
-    text: 'USACO Gold-Ranked Member (Awaiting Verification for Platinum) and competitor in many Competitive Programming Competitions and Hackathons as well as designer of various CP challenges',
+    cat: 'Data Science',
+    sub: 'Algorithmic and Competitive Programming',
+    text: 'USACO Gold-Ranked Member (Awaiting Platinum) and competitor in many Competitive Programming Comps and Hackathons with experience in data structures and algorithms',
     url: '', // if no repo, the button will not show up
   },
 ];

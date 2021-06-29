@@ -23,14 +23,18 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container className={isMobile && 'mobile'}>
-        <a href="#" className="float">
-          <i className="fa fa-file icon" />
-          <p className="text">Read About Me</p>
+        <a href="" className="float">
+          {/* added a "Link" element here that might not work and cause issues */}
+          <Link to="projects" smooth duration={1000}>
+            <i className="fa fa-file icon" />
+            <p className="text">Read About Me</p>
+          </Link>
         </a>
         <h1 className="hero-title">
           <div className={isDesktop ? 'typing' : ''}>
             {title}{' '}
-            <span className="text-color-main">{name}</span>
+            {/* added overflow: visible style which might cause issues*/}
+            <span className="text-color-main" style="overflow:visible">{name}</span>
           </div>
           <br />
         </h1>
@@ -44,7 +48,7 @@ const Header = () => {
                 <h1 className="hero-title purple">...</h1>
               </Row>
             ) : (
-              "I'm Unknown"
+              "I'm Known"
             )}
           </Col>
           <Col>
