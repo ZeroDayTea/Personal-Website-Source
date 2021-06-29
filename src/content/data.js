@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'dupperanalytics.jpg',
-    year: '2021...',
+    year: '2021-',
     title: 'DACS 2.0',
     cat: 'Data Analytics',
     sub: 'Dupper Analytics',
@@ -37,7 +37,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'connect.jpg',
-    year: '2020...',
+    year: '2020-',
     title: 'CompsciConnect',
     cat: 'Social Connections',
     sub: 'Connecting students with computer science',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'gamescreenshot.jpg',
-    year: '2020...',
+    year: '2020-',
     title: 'Untitled',
     cat: 'Game Design',
     sub: 'To Be Released On Steam',
@@ -67,7 +67,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'killerqueen.jpg',
-    year: '2019...',
+    year: '2019-',
     title: 'CTFs and Cybersecurity',
     cat: 'Cybersecurity',
     sub: 'Cybersecurity Competitor and Designer',
@@ -80,7 +80,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    year: '2019...',
+    year: '2019-',
     title: 'Competitive Programming',
     cat: 'Data Science',
     sub: 'Algorithmic and Competitive Programming',
@@ -107,7 +107,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'linkedin.com/in/patrick-dobranowski',
+      url: 'https://linkedin.com/in/patrick-dobranowski',
     },
     {
       id: nanoid(),

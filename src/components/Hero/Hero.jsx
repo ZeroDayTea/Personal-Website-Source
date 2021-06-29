@@ -27,14 +27,14 @@ const Header = () => {
           {/* added a "Link" element here that might not work and cause issues */}
           <Link to="projects" smooth duration={1000}>
             <i className="fa fa-file icon" />
-            <p className="text">Read About Me</p>
+            <p className="text">See My Projects</p>
           </Link>
         </a>
         <h1 className="hero-title">
           <div className={isDesktop ? 'typing' : ''}>
             {title}{' '}
             {/* added overflow: visible style which might cause issues*/}
-            <span className="text-color-main" style="overflow:visible">{name}</span>
+            <span className="text-color-main" style={{overflow: 'visible'}}>{name}</span>
           </div>
           <br />
         </h1>
