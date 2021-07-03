@@ -77,19 +77,19 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 5.4rem;
     font-weight: 700;
     text-align: left;
     .mobile {
       margin-top: 10rem;
     }
     .typing {
-      width: 22ch;
+      width: 27ch;
       animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
       white-space: nowrap;
       overflow: hidden;
       font-family: monospace;
-      font-size: 1.5em;
+      font-size: 1.4em;
     }
 
     @keyframes typing {

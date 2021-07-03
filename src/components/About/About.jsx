@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix, paragraphSeven, paragraphEight, paragraphNine, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +40,30 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphOne}
                 </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFour}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFive}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphSix}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphSeven}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphEight}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphNine}
+                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -58,7 +82,7 @@ const About = () => {
         </Row>
       </Container>
       <Container className="mt-5">
-        <Title title="My Interest's" />
+        <Title title="My Interests" />
         <div className="cards-wrapper">
           <Row xs={1} md={3} className="container">
             <div className="card">
@@ -78,7 +102,6 @@ const About = () => {
                     designed many other apps and pieces of software to help lead a vision of a future in 
                     technology
                   </p>
-                  <a href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -99,7 +122,6 @@ const About = () => {
                     CSS, SQL, HTML, and currently learning C and Rust. Using code to help people as well as create 
                     a better future for our world.
                   </p>
-                  <a href="#">Read More</a>
                 </div>
               </div>
             </div>
@@ -120,7 +142,6 @@ const About = () => {
                     while still in High School. Experience with managing projects, finances, testing, and 
                     deploying applications.
                   </p>
-                  <a href="#">Read More</a>
                 </div>
               </div>
             </div>

@@ -35,7 +35,7 @@ const Projects = () => {
           <Title title="Projects Portfolio" />
           <Row xs={1} md={2} lg={3}>
             {projects.map((project) => {
-              const { img, year, title, cat, sub, text, url, url2 } = project;
+              const { img, year, title, cat, sub, text, url } = project;
               return (
                 <Col className="col">
                   <div className="post-module">

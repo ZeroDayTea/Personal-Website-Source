@@ -24,17 +24,15 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container className={isMobile && 'mobile'}>
         <a href="" className="float">
-          {/* added a "Link" element here that might not work and cause issues */}
           <Link to="projects" smooth duration={1000}>
             <i className="fa fa-file icon" />
-            <p className="text">See My Projects</p>
+            <p className="text">My Projects</p>
           </Link>
         </a>
         <h1 className="hero-title">
           <div className={isDesktop ? 'typing' : ''}>
             {title}{' '}
-            {/* added overflow: visible style which might cause issues*/}
-            <span className="text-color-main" style={{overflow: 'visible'}}>{name}</span>
+            <span className="text-color-main">{name}</span>
           </div>
           <br />
         </h1>
@@ -54,10 +52,13 @@ const Header = () => {
           <Col>
             <h1 className="hero-title yellow">TL;DR</h1>
             <p align="left">
-              High School student, computer science enthusiast, and entrepreneur with a passion for computer science, software development, 
-              full-stack development, and cybersecurity. Competitor in a variety of computer science, STEM, and cybersecurity competitions, 
-              and winner of several National titles from various esteemed sources. Passionate about learning and creating in order to develop practical 
-              business solutions with code - in founding and being CEO/VPE of three own companies (LLC) - and design a future in technology.
+              High School student, computer science enthusiast, and entrepreneur with a 
+              passion for software development, full-stack development, and cybersecurity 
+              who has founded and been CEO/VPE of three own companies (LLC). Competitor 
+              in a variety of computer science, STEM, and cybersecurity competitions, and 
+              winner of several National titles from various esteemed sources. Passionate 
+              about learning and creating in order to develop practical business solutions 
+              with code and design a brighter future in technology.
             </p>
           </Col>
         </Row>
