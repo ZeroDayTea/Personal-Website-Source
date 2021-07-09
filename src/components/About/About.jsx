@@ -118,7 +118,7 @@ const About = () => {
               <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
                 <div className="content">
                   <p>
-                    Experience with programming in several languages including C#, Python, Java, C++, Javascript, 
+                    Experience with programming in several languages including C#, Python, Java, C++, Javascript, PHP, 
                     CSS, SQL, HTML, and currently learning C and Rust. Using code to help people as well as create 
                     a better future for our world.
                   </p>

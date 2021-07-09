@@ -54,7 +54,7 @@ const Header = () => {
             <p align="left">
               High School student, computer science enthusiast, and entrepreneur with a 
               passion for software development, full-stack development, and cybersecurity 
-              who has founded and been CEO/VPE of three own companies (LLC). Competitor 
+              who has founded and been CEO/VPE of two own companies (S Corp and LLC). Competitor 
               in a variety of computer science, STEM, and cybersecurity competitions, and 
               winner of several National titles from various esteemed sources. Passionate 
               about learning and creating in order to develop practical business solutions 

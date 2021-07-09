@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who began working as a software engineer and full-stack developer for Dupper Analytics as their Vice President of Engineering and Co-Founder during Junior Year of High School. Founder of two other companies - Untitled and Untitled - (LLC) developing software and webapps in student connections/education and game design/entertainment respectively.',
+  paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who Co-Founded Dupper Analytics and began working as their Vice President of Engineering doing software engineering and full-stack development during Junior Year of High School. Also Founder and CEO of Cygnel Studios (LLC) developing software and webapps in student connections/education and game design/entertainment respectively.',
   paragraphTwo: 'Also, an avid competitor in many STEM-based competitions and hackathons including:',
   paragraphThree: '-Captain of a CTF team that placed 9th Nationally in Carnegie Mellon\'s PicoCTF',
   paragraphFour: '-Founder, President, and Captain of a Platinum Division ranked team in CyberPatriot',
