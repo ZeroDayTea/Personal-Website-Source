@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix, paragraphSeven, paragraphEight, paragraphNine, resume } = about;
+  const { img, paragraphOne, paragraphTwo, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -42,27 +42,6 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFour}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFive}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphSix}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphSeven}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphEight}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphNine}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -142,6 +121,58 @@ const About = () => {
                     while still in High School. Experience with managing projects, finances, testing, and 
                     deploying applications.
                   </p>
+                </div>
+              </div>
+            </div>
+          </Row>
+        </div>
+      </Container>
+      <Container className="mt-5">
+        <Title title="My Companies" />
+        <div className="cards-wrapper">
+          <Row xs={1} md={2} className="container">
+            <div className="card">
+              <div className={isDesktop ? 'face face1' : 'mobile-face'}>
+                <div className="content">
+                  <img
+                    alt="content"
+                    src="/images/dupperanalyticsfulllogo.jpg"
+                  />
+                  <h3>Dupper Analytics</h3>
+                  <h4>Co-Founder and Vice President of Engineering</h4>
+                </div>
+              </div>
+              <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
+                <div className="content">
+                  <p style="font-size: 12px">
+                    Developed and distributed the Dupper Analytics Cloud-Based Solutions product which performs 
+                    data collection, storage, and analytics for small and medium size busineeses in order to 
+                    help them compete and succeed in an increasingly data-driven world.
+                  </p>
+                  <a href="http://www.dupperanalytics.com/">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <div className={isDesktop ? 'face face1' : 'mobile-face'}>
+                <div className="content">
+                  <img
+                    alt="content"
+                    src="/images/connect.jpg"
+                  />
+                  <h3>Cygnel Studios</h3>
+                  <h4>Founder and CEO</h4>
+                </div>
+              </div>
+              <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
+                <div className="content">
+                  <p style="font-size: 12px">
+                    Developed several pieces of software and application including BirbChat, a secure modern 
+                    messaging application with a comforting aesthetic, CompSci Lumin, a social connections 
+                    platform to help students connect with computer science opportunities near them and learn
+                    more about computer science, as well as two games on Steam.
+                  </p>
+                  <a href="">Read More</a>
                 </div>
               </div>
             </div>

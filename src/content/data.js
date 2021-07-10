@@ -18,15 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who Co-Founded Dupper Analytics and began working as their Vice President of Engineering doing software engineering and full-stack development during Junior Year of High School. Also Founder and CEO of Cygnel Studios (LLC) developing software and webapps in student connections/education and game design/entertainment respectively.',
-  paragraphTwo: 'Also, an avid competitor in many STEM-based competitions and hackathons including:',
-  paragraphThree: '-Captain of a CTF team that placed 9th Nationally in Carnegie Mellon\'s PicoCTF',
-  paragraphFour: '-Founder, President, and Captain of a Platinum Division ranked team in CyberPatriot',
-  paragraphFive: '-National "Scholar with Honors" scholarship receiver for 10th place at the National Cyber Scholarship Foundation Cybersecurity Competition',
-  paragraphSix: '-3rd place finalist ranking at Technology Student’s Association Nationals',
-  paragraphSeven: '-Top 3 finalist ranking in State-Level Science Olympiad (3x)',
-  paragraphEight: '-Gold Division Level USACO member',
-  paragraphNine: '-avid Speech and Debate enthusiast',
+  paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who eventually Co-Founded Dupper Analytics (S-Corp) and began working as their Vice President of Engineering doing software engineering and full-stack development during Junior Year of High School. Also Founder and CEO of Cygnel Studios (LLC) developing software and webapps in social connections/education and game design/entertainment.',
+  paragraphTwo: 'Also, an avid competitor in many STEM-based competitions and hackathons including:<br>-Captain of a CTF team that placed 9th Nationally in Carnegie Mellon\'s PicoCTF<br>-Founder, President, and Captain of a Platinum Division ranked team in CyberPatriot<br>-National "Scholar with Honors" scholarship receiver for 10th place at the National Cyber Scholarship Foundation Cybersecurity Competition<br>-3rd place finalist ranking at Technology Student’s Association Nationals<br>-Top 3 finalist ranking in State-Level Science Olympiad (3x)<br>-Gold Division Level USACO member<br>-avid Speech and Debate enthusiast',
   resume: 'https://drive.google.com/file/d/1cu4yXtyPCk1GYDOzUbrRcHsY8mD8Hzi1/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -39,14 +32,14 @@ export const projectsData = [
     title: 'DACS 2.0',
     cat: 'Data Analytics',
     sub: 'Dupper Analytics data collection and profitability webapp software',
-    text: 'Open Source & Cloud Computing combined to provide highly-secure, scalable and reliable data analytics solutions to help small and medium size businesses compete and succeed an increasingly data-driven world',
+    text: 'Open Source & Cloud Computing combined to provide highly-secure, scalable and reliable data analytics solutions to help small and medium size businesses compete and succeed in an increasingly data-driven world',
     url: 'http://54.149.213.162/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'connect.jpg',
     year: '2020-',
-    title: 'CompsciConnect',
+    title: 'CompSci Lumin',
     cat: 'Social Network Software',
     sub: 'Connecting students with computer science',
     text: 'Platform for connecting middle school, high school, and university students with computer science opportunities and competitions near them while also providing them with coursework to be successful',
@@ -69,7 +62,7 @@ export const projectsData = [
     title: 'BirbChat',
     cat: 'Communications Software',
     sub: 'Desktop chat application',
-    text: 'C# chat application that incorporates a comforting atmosphere and animated birds delivering chat messages',
+    text: 'Secure and modern C# chat application that incorporates a comforting atmosphere and animated birds delivering chat messages',
     url: '', // if no repo, the button will not show up
   },
   {
@@ -79,7 +72,7 @@ export const projectsData = [
     title: 'Treasures of Selangor',
     cat: 'Game Design & Entertainment',
     sub: 'Top-Down Roguelike for PC and Mac',
-    text: 'E10+ rated top-down cave crawling roguelike with a focus on procedurally generated levels, cartoon-like animation, and combat',
+    text: 'E10+ rated top-down cave crawling roguelike with a focus on procedurally generated levels, cartoon-like animation, educational puzzles, and engaging combat',
     url: '', // if no repo, the button will not show up
   },
   {
