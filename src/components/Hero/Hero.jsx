@@ -46,7 +46,7 @@ const Header = () => {
                 <h1 className="hero-title purple">...</h1>
               </Row>
             ) : (
-              "I'm Known"
+              "Nyello! Looks like something didn't work :( Try reloading the page or trying again at another time"
             )}
           </Col>
           <Col>

@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
+  img2: 'dupperanalyticsfulllogo.jpg',
+  img3: 'connect.jpg',
   paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who eventually Co-Founded Dupper Analytics (S-Corp) and began working as their Vice President of Engineering doing software engineering and full-stack development during Junior Year of High School. Also Founder and CEO of Cygnel Studios (LLC) developing software and webapps in social connections/education and game design/entertainment.',
-  paragraphTwo: 'Also, an avid competitor in many STEM-based competitions and hackathons including:<br>-Captain of a CTF team that placed 9th Nationally in Carnegie Mellon\'s PicoCTF<br>-Founder, President, and Captain of a Platinum Division ranked team in CyberPatriot<br>-National "Scholar with Honors" scholarship receiver for 10th place at the National Cyber Scholarship Foundation Cybersecurity Competition<br>-3rd place finalist ranking at Technology Student’s Association Nationals<br>-Top 3 finalist ranking in State-Level Science Olympiad (3x)<br>-Gold Division Level USACO member<br>-avid Speech and Debate enthusiast',
+  paragraphTwo: 'Avid competitor in many STEM competitions and hackathons including:<br>-Captain of a CTF team that placed 9th Nationally in Carnegie Mellon\'s PicoCTF<br>-Founder, President, and Captain of a Platinum Division ranked team in CyberPatriot<br>-National "Scholar with Honors" scholarship receiver for 10th place at the National Cyber Scholarship Foundation Cybersecurity Competition<br>-3rd place finalist ranking at Technology Student’s Association Nationals<br>-Top 3 finalist ranking in State-Level Science Olympiad (3x)<br>-Gold Division Level USACO member<br>-avid Speech and Debate enthusiast',
   resume: 'https://drive.google.com/file/d/1cu4yXtyPCk1GYDOzUbrRcHsY8mD8Hzi1/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -62,7 +64,7 @@ export const projectsData = [
     title: 'BirbChat',
     cat: 'Communications Software',
     sub: 'Desktop chat application',
-    text: 'Secure and modern C# chat application that incorporates a comforting atmosphere and animated birds delivering chat messages',
+    text: 'Secure and modern Python chat application that incorporates a comforting atmosphere and animated birds delivering chat messages',
     url: '', // if no repo, the button will not show up
   },
   {
