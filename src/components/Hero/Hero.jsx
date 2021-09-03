@@ -51,7 +51,8 @@ const Header = () => {
           </Col>
           <Col>
             <h1 className="hero-title yellow">TL;DR</h1>
-            <p align="left">
+            <br></br>
+            <p align="left" style={{fontSize: 17}}>
               High School student, computer science enthusiast, and entrepreneur with a 
               passion for software development, full-stack development, and cybersecurity 
               who has founded and been CEO/VPE of two own companies (S-Corp and LLC). Competitor 
