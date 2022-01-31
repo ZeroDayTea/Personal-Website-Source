@@ -53,13 +53,12 @@ const Header = () => {
             <h1 className="hero-title yellow">TL;DR</h1>
             <br></br>
             <p align="left" style={{fontSize: 17}}>
-              High School student, computer science enthusiast, and entrepreneur with a 
-              passion for software development, full-stack development, and cybersecurity 
-              who has founded and been CEO/VPE of two own companies (S-Corp and LLC). Competitor 
-              in a variety of computer science, STEM, and cybersecurity competitions, and 
-              winner of several National titles from various esteemed sources. Passionate 
-              about learning and creating in order to develop practical business solutions 
-              with code and design a brighter future in technology.
+              High Schooler, computer science enthusiast, and entrepreneur with a 
+              passion for development and cybersecurity who has founded and been CEO/VPE 
+              of two own companies. Competitor in a variety of computer science, STEM, and 
+              cybersecurity competitions, and winner of several National titles from various 
+              esteemed sources. Passionate about learning and creating in order to develop 
+              a brighter future in technology.
             </p>
           </Col>
         </Row>

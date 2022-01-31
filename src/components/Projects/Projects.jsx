@@ -47,7 +47,7 @@ const Projects = () => {
                       <div className="post-meta">
                         <h1 className="title">Dupper Analytics</h1>
                         <h2 className="sub_title">
-                        Co-Founder and Vice President of Engineering
+                        Co-Founder and Vice President
                         </h2>
                       </div>
                       <div className="description">
@@ -56,7 +56,7 @@ const Projects = () => {
                           data collection, storage, and analytics for small and medium size busineeses in order to 
                           help them compete and succeed in an increasingly data-driven world.
                         </p>
-                        <a href="http://dupperanalytics.com/" target="_blank">Learn More</a>
+                        <a href="https://dupperanalytics.com/" target="_blank">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -81,10 +81,10 @@ const Projects = () => {
                         <p>
                           Developed several pieces of software and application including BirbChat, a secure modern 
                           messaging application with a comforting aesthetic, CompSci Lumin, a social connections 
-                          platform to help students connect with computer science opportunities near them and learn
-                          more about computer science, as well as two games on Steam.
+                          platform to help students connect with computer science opportunities as well as two games 
+                          on Steam.
                         </p>
-                        <a href="http://dupperanalytics.com/" target="_blank">Learn More</a>
+                        <a href="https://dupperanalytics.com/" target="_blank">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -97,7 +97,7 @@ const Projects = () => {
       <br></br>
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects Portfolio" />
+          <Title title="Notable Projects" />
           <Row xs={1} md={2} lg={3}>
             {projects.map((project) => {
               const { img, year, title, cat, sub, text, url } = project;

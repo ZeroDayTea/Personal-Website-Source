@@ -41,10 +41,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'connect.jpg',
     year: '2020-',
-    title: 'CompSci Lumin',
-    cat: 'Social Network Software',
-    sub: 'Connecting students with computer science',
-    text: 'MongoDB, Express, Angular, and NodeJS stack platform for connecting middle/high school and university students with computer science opportunities/competitions near them while providing them with coursework to be successful',
+    title: 'kqctf-framework',
+    cat: 'Competition Platform',
+    sub: 'Online Competition Hosting Platform',
+    text: 'Competition Platform complete with a dynamic leaderboard, point scoring algorithm, admin dashboard, user/team registration, and competition management features perfect for hosting any online/remote competition',
     url: '', // if no repo, the button will not show up
   },
   {
@@ -54,7 +54,7 @@ export const projectsData = [
     title: 'Undaunted',
     cat: 'Game Design & Entertainment',
     sub: 'To Be Released On Steam',
-    text: 'Procedurally generated action-adventure RPG focused on exploration of a rich and diverse world written in C# and the Unity Game Engine',
+    text: 'Procedurally generated action-adventure RPG focused on exploration of a rich and diverse world written in C#, HLSL, and the Unity Game Engine',
     url: '', // if no repo, the button will not show up
   },
   {
@@ -105,7 +105,7 @@ export const projectsData = [
     cat: 'Cybersecurity',
     sub: 'Cybersecurity Competitor and Designer',
     text: 'Founder and Captain of Killer Queen, a nationally ranked cybersecurity team with recognition from esteemed sources such as Carnegie Mellon University, CyberPatriot, and the NCS Foundation. Hosting own CTF soon!',
-    url: 'https://killerqueenctf.net', // if no repo, the button will not show up
+    url: 'https://killerqueenctf.org', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
