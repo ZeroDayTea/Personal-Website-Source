@@ -23,6 +23,7 @@
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.3.4",
     "gatsby-plugin-sharp": "^2.6.12",
+    "gatsby-remark-line-breaks": "^1.0.0",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
     "imagemin-pngquant": "^5.0.1",
@@ -69,7 +70,6 @@
   },
   "lint-staged": {
     "*.+(js|jsx)": [
-      "eslint --fix",
       "git add"
     ],
     "*.+(json|css|md)": [

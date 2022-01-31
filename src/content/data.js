@@ -11,17 +11,15 @@ export const headData = {
 export const heroData = {
   title: "Hi! I'm",
   name: 'Patrick Dobranowski',
-  subtitle: ['Student', 'Developer', 'Entrepreneur'],
+  subtitle: ['Student ', 'Developer ', 'Entrepreneur'],
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  img2: 'dupperanalyticsfulllogo.jpg',
-  img3: 'connect.jpg',
-  paragraphOne: 'Self-employed app, software, web, and game developer for many years in Middle School and High School who eventually Co-Founded Dupper Analytics (LLC) and became its Vice President of Engineering doing software engineering and full-stack development during Junior Year of High School. Also Founder and CEO of Cygnel Studios (LLC) developing software and webapps in social connections/education and game design/entertainment.',
-  paragraphTwo: 'Also hosted two own nationally successful cybersecurity competitions: PBJarCTF and Killer Queen CTF. Designed challenges and administrated the competitions with hundreds of participants while promoting #WomenWhoCode',
+  paragraphOne: 'I began my journey with computer science doing app, software, and game development for many years in Middle School before eventually co-founding Dupper Analytics and acting as its Vice President writing software to help smaller and medium size businesses across the nation. Since then I have presented to and impressed many large tech corporations, hired students, and made entrepreneurship one of my greatest passions. I also founded Cygnel Studios during High School as its CEO and developed software and webapps in social connections/education and game design/entertainment.',
+  paragraphTwo: 'I am greatly interested in cybersecurity, machine learning and neural networks, cryptography, and natural language processing and have developed many projects in these fields',
   resume: 'https://drive.google.com/file/d/1cu4yXtyPCk1GYDOzUbrRcHsY8mD8Hzi1/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -124,6 +122,7 @@ export const contactData = {
   cta: 'Contact Me',
   btn: '',
   email: 'patrick.dobranowski@gmail.com',
+  img: 'gfactcert.png',
 };
 
 // FOOTER DATA
