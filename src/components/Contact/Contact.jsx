@@ -2,6 +2,9 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrophy } from '@fortawesome/free-solid-svg-icons'
+import GFACT from "../../images/gfactcert.png"
 
 const Contact = () => {
   return (
@@ -10,31 +13,37 @@ const Contact = () => {
         <Title title="Awards and Certifications" />
         <div className="contact-wrapper">
             <Fade bottom duration={1000} delay={800} distance="30px">
-              <Row xs={1} md={1}>
+              <Row xs={2} md={2}>
                 <Col>
                   <ul>
                     <li>
                       <div className="info info-text">
                         <h4>Cybersecurity</h4>
-                        <div className="hr" />
+                        <div className="hr" style={{width: '50%'}} />
                         <ul>
                           <li>
-                            <p>Platinum Division National Semifinalist CyberPatriot</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;Platinum Division National Semifinalist CyberPatriot</p>
                           </li>
                           <li>
-                            <p><a href="https://www.nationalcyberscholarship.org/winners-2021" target="_blank" style={{color: 'pink'}}>"National Cyber Scholar With Honors"</a> from National Cyber Scholarship Foundation</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;<a href="https://www.nationalcyberscholarship.org/winners-2021" target="_blank" style={{color: 'pink'}}>"National Cyber Scholar With Honors"</a> from NCSF</p>
                           </li>
                           <li>
-                            <p>9th Place CMU PicoCTF (Team Captain)</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;9th Place CMU PicoCTF (Team Captain)</p>
                           </li>
                           <li>
-                            <p>3rd Place National redpwnCTF</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;3rd Place National redpwnCTF</p>
                           </li>
                           <li>
-                            <p>3rd Place National NACTF</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;3rd Place National NACTF</p>
                           </li>
                           <li>
-                            <p>5th Place National HSCTF</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;5th Place National HSCTF</p>
                           </li>
                         </ul>
                       </div>
@@ -43,22 +52,27 @@ const Contact = () => {
                     <li>
                       <div className="info info-text">
                         <h4>TSA</h4>
-                        <div className="hr" />
+                        <div className="hr" style={{width: '110%'}} />
                         <ul>
                           <li>
-                            <p>3rd Place National, Cybersecurity</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;3rd Place National, Cybersecurity</p>
                           </li>
                           <li>
-                            <p>Top 10 National, Video Game Design</p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;Top 10 National, Video Game Design</p>
                           </li>
                           <li>
-                            <p>2nd Place State, Technology Bowl </p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;2nd Place State, Technology Bowl </p>
                           </li>
                           <li>
-                            <p>3rd Place State, Video Game Design </p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;3rd Place State, Video Game Design </p>
                           </li>
                           <li>
-                            <p>3rd Place State, Webmaster </p>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;3rd Place State, Webmaster </p>
                           </li>
                         </ul>
                       </div>
@@ -67,33 +81,49 @@ const Contact = () => {
                     <li>
                       <div className="info info-text">
                           <h4>Science Olympiad</h4>
-                          <div className="hr" />
+                          <div className="hr" style={{width: '110%'}} />
                           <ul>
                             <li>
-                              <p>2nd Place State, Detector building</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;2nd Place State, Detector building</p>
                             </li>
                             <li>
-                              <p>2nd Place State, Herpetology</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;2nd Place State, Herpetology</p>
                             </li>
                             <li>
-                              <p>3rd Place State, Astronomy</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;3rd Place State, Astronomy</p>
                             </li>
                             <li>
-                              <p>5th Place State, Circuits</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;5th Place State, Circuits</p>
                             </li>
                             <li>
-                              <p>2nd Place Regionals, Herpetology</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;2nd Place Regionals, Herpetology</p>
                             </li>
                             <li>
-                              <p>3rd Place Regionals, Circuits</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;3rd Place Regionals, Circuits</p>
                             </li>
                             <li>
-                              <p>6th Place Regionals, Astronomy</p>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;6th Place Regionals, Astronomy</p>
                             </li>
                           </ul>
                       </div>
                     </li>
                   </ul>
+                </Col>
+                <Col>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <img src={GFACT} alt="GFACT" />
                 </Col>
               </Row>
             </Fade>

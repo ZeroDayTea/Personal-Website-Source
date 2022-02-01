@@ -37,9 +37,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'connect.jpg',
+    img: 'kqctfframework.png',
     year: '2020-',
-    title: 'kqctf-framework',
+    title: 'KQCTF Framework',
     cat: 'Competition Platform',
     sub: 'Online Competition Hosting Platform',
     text: 'Competition Platform complete with a dynamic leaderboard, point scoring algorithm, admin dashboard, user/team registration, and competition management features perfect for hosting any online/remote competition',
@@ -57,13 +57,33 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'delphi.png',
+    year: '2021-',
+    title: 'Delphi',
+    cat: 'Natural Language Processing',
+    sub: 'Voice Recognition Raspberry Pi',
+    text: 'Natural Language Processing and Neural Network based bot that responds to voice commands and is being trained to process conversations.',
+    url: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'chatapp.jpg',
     year: '2021',
     title: 'BirbChat',
     cat: 'Communications Software',
     sub: 'Desktop chat application',
-    text: 'Secure and modern Python chat application that incorporates a comforting atmosphere and animated birds delivering chat messages',
+    text: 'Secure and modern Python chat application using end-to-end encryption that incorporates a comforting atmosphere and animated birds delivering chat messages',
     url: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'fruits.png',
+    year: '2020',
+    title: 'What\'s That Fruit!',
+    cat: 'Machine Learning',
+    sub: 'Fruit Recognizing Neural Network',
+    text: 'Neural Network trained to recognize images of fruit from a live phone or desktop camera feed. Employed use of sigmoid-delta algorithm to train with thousands of labeled fruit images',
+    url: 'https://www.congressionalappchallenge.us/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -74,16 +94,6 @@ export const projectsData = [
     sub: 'Top-Down Roguelike for PC and Mac',
     text: 'E10+ rated top-down cave crawling roguelike with a focus on procedurally generated levels, cartoon-like animation, educational puzzles, and engaging combat written in C# and the Unity Game Engine',
     url: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'congressappchal.jpg',
-    year: '2021',
-    title: 'Mental Health Connect',
-    cat: 'Social Network Software',
-    sub: 'Congressional App Challenge',
-    text: 'Cross-platform React app that helps students and those struggling with mental health disorders to learn about their disorders and connect them with helpful opportunities around them. Congressional District CO06: Jason Crow',
-    url: 'https://www.congressionalappchallenge.us/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -104,16 +114,6 @@ export const projectsData = [
     sub: 'Cybersecurity Competitor and Designer',
     text: 'Founder and Captain of Killer Queen, a nationally ranked cybersecurity team with recognition from esteemed sources such as Carnegie Mellon University, CyberPatriot, and the NCS Foundation. Hosting own CTF soon!',
     url: 'https://killerqueenctf.org', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'algorithmicprogramming.jpg',
-    year: '2019-',
-    title: 'Competitive Programming',
-    cat: 'Data Science & Algorithms',
-    sub: 'Algorithmic/Competitive Programming',
-    text: 'USACO Gold-Ranked Member (Awaiting Platinum) and competitor in many Competitive Programming Comps with experience in data structures and algorithms. Also certified thanks to having passed Stanford\'s and Princeton\'s computer science, data science and algorithms, and AI programs.',
-    url: '', // if no repo, the button will not show up
   },
 ];
 

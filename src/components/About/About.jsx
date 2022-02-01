@@ -9,7 +9,7 @@ const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, resume } = about;  
   
-  const paragraphThree = ['Also hosted two own nationally successful cybersecurity competitions: ', <a href="https://pbjar.net/" target="_blank">PBJarCTF</a>, ' and ', <a href="https://killerqueenctf.org" target="_blank">Killer Queen CTF</a>, '. Designed challenges and administrated the competitions with hundreds of participants and over $65,000 in prizes while promoting Cybersecurity Education and #WomenWhoCode'];
+  const paragraphThree = ['I also hosted two own nationally successful cybersecurity competitions: ', <a href="https://pbjar.net/" target="_blank">PBJarCTF</a>, ' and ', <a href="https://killerqueenctf.org" target="_blank">Killer Queen CTF</a>, '. Designed challenges and administrated the competitions with over 3,000 participants and raised over $65,000 for Cybersecurity Education and #WomenWhoCode'];
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -106,7 +106,7 @@ const About = () => {
                 <div className="content">
                   <p>
                     Experience with programming and using several languages including C#, Python, Java, C++, Javascript, PHP, 
-                    CSS, SQL, HTML, a variety of frameworks, and currently learning C and Rust. Using code to help people as well as create a better future for our world.
+                    CSS, SQL, HTML, a variety of frameworks, and currently learning C. Using code to help people as well as create a better future for our world.
                   </p>
                 </div>
               </div>

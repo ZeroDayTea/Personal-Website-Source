@@ -60,6 +60,11 @@ a * {
   background-color: transparent;
 }
 
+span,
+span * {
+  color: #ffc107;
+}
+
 a:hover,
 a:hover *,
 a:visited:hover,
