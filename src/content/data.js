@@ -112,7 +112,7 @@ export const projectsData = [
     title: 'Panhandles Geography',
     cat: 'Web Development',
     sub: 'Web-Based Geography Game',
-    text: 'Web-Based Geography game built with javascript and frontend web technologies ',
+    text: 'Web-Based Geography game built with javascript and frontend web technologies with modes to learn about country geography and flags and fun quizzes',
     url: 'https://panhandlesgeo.patrickdobranowski.com', // if no repo, the button will not show up
   },
 ];
