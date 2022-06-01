@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I began my journey with computer science doing app, software, and game development for many years in Middle School before eventually co-founding Dupper Analytics and acting as its Vice President writing software to help smaller and medium size businesses across the nation. Since then I have presented to and impressed many large tech corporations, hired students, and made entrepreneurship one of my greatest passions. I also founded Cygnel Studios during High School as its CEO and developed software and webapps in social connections/education and game design/entertainment.',
-  paragraphTwo: 'I am greatly interested in cybersecurity, machine learning and neural networks, cryptography, and natural language processing and have developed many projects in these fields',
+  paragraphTwo: 'I am greatly interested in cybersecurity, machine learning neural networks, cryptography, and natural language processing and have developed many projects in these fields',
   resume: 'https://drive.google.com/file/d/1cu4yXtyPCk1GYDOzUbrRcHsY8mD8Hzi1/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'kqctfframework.png',
-    year: '2020-',
+    year: '2021',
     title: 'KQCTF Framework',
     cat: 'Competition Platform',
     sub: 'Online Competition Hosting Platform',

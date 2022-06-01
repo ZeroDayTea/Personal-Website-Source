@@ -31,7 +31,7 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;9th Place CMU PicoCTF (Team Captain)</p>
+                            <p>&nbsp;&nbsp;<a href="https://cylab.cmu.edu/news/2021/04/23-picoCTF2021.html" target="_blank" style={{color: 'pink'}}> 9th Place CMU PicoCTF</a> (Team Captain)</p>
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
@@ -64,6 +64,10 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;1st Place State, Cybersecurity</p>
+                          </li>
+                          <li>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
                             <p>&nbsp;&nbsp;2nd Place State, Technology Bowl </p>
                           </li>
                           <li>
@@ -72,7 +76,7 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;3rd Place State, Webmaster </p>
+                            <p>&nbsp;&nbsp;3rd Place State, Webmaster x2 </p>
                           </li>
                         </ul>
                       </div>
@@ -85,7 +89,7 @@ const Contact = () => {
                           <ul>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                              <p>&nbsp;&nbsp;2nd Place State, Detector building</p>
+                              <p>&nbsp;&nbsp;1st Place State, Detector building</p>
                             </li>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
@@ -101,15 +105,19 @@ const Contact = () => {
                             </li>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;1st Place Regionals, Detector Building x2</p>
+                            </li>
+                            <li>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                              <p>&nbsp;&nbsp;2nd Place Regionals, Astronomy</p>
+                            </li>
+                            <li>
+                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
                               <p>&nbsp;&nbsp;2nd Place Regionals, Herpetology</p>
                             </li>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
                               <p>&nbsp;&nbsp;3rd Place Regionals, Circuits</p>
-                            </li>
-                            <li>
-                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                              <p>&nbsp;&nbsp;6th Place Regionals, Astronomy</p>
                             </li>
                           </ul>
                       </div>

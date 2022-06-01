@@ -80,8 +80,8 @@ const Projects = () => {
                       <div className="description">
                         <p>
                           Developed several pieces of software and application including BirbChat, a secure modern 
-                          messaging application with a comforting aesthetic, CompSci Lumin, a social connections 
-                          platform to help students connect with computer science opportunities as well as two games 
+                          messaging application with a comforting aesthetic, What's That Fruit!, a fruit recognition
+                          neural network application that helps identify and learn about fruits of the world as well as two games 
                           on Steam.
                         </p>
                         <a href="https://dupperanalytics.com/" target="_blank">Learn More</a>
