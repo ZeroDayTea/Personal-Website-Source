@@ -107,13 +107,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'killerqueen.jpg',
-    year: '2019-',
-    title: 'CTFs and Cybersecurity',
-    cat: 'Cybersecurity',
-    sub: 'Cybersecurity Competitor and Designer',
-    text: 'Founder and Captain of Killer Queen, a nationally ranked cybersecurity team with recognition from esteemed sources such as Carnegie Mellon University, CyberPatriot, and the NCS Foundation. Hosting own CTF soon!',
-    url: 'https://killerqueenctf.org', // if no repo, the button will not show up
+    img: 'panhandles.png',
+    year: '2022',
+    title: 'Panhandles Geography',
+    cat: 'Web Development',
+    sub: 'Web-Based Geography Game',
+    text: 'Web-Based Geography game built with javascript and frontend web technologies ',
+    url: 'https://panhandlesgeo.patrickdobranowski.com', // if no repo, the button will not show up
   },
 ];
 
