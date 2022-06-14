@@ -78,7 +78,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'fruits.png',
-    year: '2020',
+    year: '2022',
     title: 'What\'s That Fruit!',
     cat: 'Machine Learning',
     sub: 'Fruit Recognizing Neural Network',

@@ -35,15 +35,15 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
+                            <p>&nbsp;&nbsp;2nd Place National HSCTF</p>
+                          </li>
+                          <li>
+                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
                             <p>&nbsp;&nbsp;3rd Place National redpwnCTF</p>
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
                             <p>&nbsp;&nbsp;3rd Place National NACTF</p>
-                          </li>
-                          <li>
-                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;5th Place National HSCTF</p>
                           </li>
                         </ul>
                       </div>
