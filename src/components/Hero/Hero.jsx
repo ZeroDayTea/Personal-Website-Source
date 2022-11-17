@@ -53,19 +53,19 @@ const Header = () => {
             <h1 className="hero-title yellow">TL;DR</h1>
             <br></br>
             <p align="left" style={{fontSize: 17}}>
-              High Schooler, computer science enthusiast, and entrepreneur with a 
-              passion for development and cybersecurity who has founded and been CEO/VPE 
-              of two own companies. Competitor in a variety of computer science, STEM, and 
+              Student, computer science enthusiast, and researcher with a 
+              passion for development, cybersecurity, and physics who has helped launch and 
+              been VPE of own company. Competitor in a variety of computer science, STEM, and 
               cybersecurity competitions, and winner of several National titles from various 
               esteemed sources. Passionate about learning and creating in order to develop 
               a brighter future in technology.
             </p>
           </Col>
         </Row>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={500} delay={500} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
+              <Link to="about" smooth duration={500}>
                 {cta || 'Know more'}
               </Link>
             </span>

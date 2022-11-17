@@ -11,15 +11,15 @@ export const headData = {
 export const heroData = {
   title: "Hi! I'm",
   name: 'Patrick Dobranowski',
-  subtitle: ['Student ', 'Developer ', 'Entrepreneur'],
+  subtitle: ['Student ', 'Developer ', 'Researcher'],
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I began my journey with computer science doing app, software, and game development for many years in Middle School before eventually co-founding Dupper Analytics and acting as its Vice President writing software to help smaller and medium size businesses across the nation. Since then I have presented to and impressed many large tech corporations, hired students, and made entrepreneurship one of my greatest passions. I also founded Cygnel Studios during High School as its CEO and developed software and webapps in social connections/education and game design/entertainment.',
-  paragraphTwo: 'I am greatly interested in cybersecurity, machine learning neural networks, cryptography, and natural language processing and have developed many projects in these fields',
+  paragraphOne: 'I am currently a researcher at Vanderbilt\'s I-Privacy Lab working on Self-Learning and Self-Evolving Detection of Altered, Deceptive Images and Videos at the intersection of deep neural networks and cybersecurity. I am also a developer for Change++ working with the For Pete\'s Sake Cancer Foundation developing a novel messaging and content-delivery platform for cancer patients.',
+  paragraphTwo: 'Overall, I am greatly interested in cybersecurity, machine learning, cryptography, low level systems architecture, as well as physics and math. Despite this though, I am open to learning about anything and you can talk to be about any topic from philosophy and music to birbs and astronomy!',
   resume: 'https://drive.google.com/file/d/1cu4yXtyPCk1GYDOzUbrRcHsY8mD8Hzi1/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -33,7 +33,7 @@ export const projectsData = [
     cat: 'Data Analytics',
     sub: 'Dupper Analytics data collection and profitability webapp software',
     text: 'Open Source & Cloud Computing combined to provide highly-secure, scalable and reliable data analytics solutions to help small and medium size businesses compete and succeed in an increasingly data-driven world',
-    url: 'http://dupperanalytics.com/', // if no repo, the button will not show up
+    url: 'https://dupperanalytics.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -43,16 +43,16 @@ export const projectsData = [
     cat: 'Competition Platform',
     sub: 'Online Competition Hosting Platform',
     text: 'Competition Platform complete with a dynamic leaderboard, point scoring algorithm, admin dashboard, user/team registration, and competition management features perfect for hosting any online/remote competition',
-    url: '', // if no repo, the button will not show up
+    url: 'https://github.com/ZeroDayTea/kqctf', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'gamescreenshot.jpg',
     year: '2020-',
     title: 'Undaunted',
-    cat: 'Game Design & Entertainment',
-    sub: 'To Be Released On Steam',
-    text: 'Procedurally generated action-adventure RPG focused on exploration of a rich and diverse world written in C#, HLSL, and the Unity Game Engine',
+    cat: 'Simulation & Game Design',
+    sub: 'Simulation World Building',
+    text: 'Procedurally generated environment simulator that generates a three dimensional environment using a combination of Perlin Noise, Cellular Automata, and the Marching Cubes Algorithm, written in C#/HLSL',
     url: '', // if no repo, the button will not show up
   },
   {
@@ -62,7 +62,7 @@ export const projectsData = [
     title: 'Delphi',
     cat: 'Natural Language Processing',
     sub: 'Voice Recognition Raspberry Pi',
-    text: 'Natural Language Processing and Neural Network based bot that responds to voice commands and is being trained to process conversations.',
+    text: 'Natural Language Processing and Neural Network based bot that responds to voice commands and is being trained to produce speech output.',
     url: '', // if no repo, the button will not show up
   },
   {
@@ -82,8 +82,8 @@ export const projectsData = [
     title: 'What\'s That Fruit!',
     cat: 'Machine Learning',
     sub: 'Fruit Recognizing Neural Network',
-    text: 'Neural Network trained to recognize images of fruit from a live phone or desktop camera feed. Employed use of sigmoid-delta algorithm to train with thousands of labeled fruit images',
-    url: 'https://www.congressionalappchallenge.us/', // if no repo, the button will not show up
+    text: 'Neural Network trained to recognize images of fruit from a live phone or desktop camera feed. Employed use of custom algorithm to train the neural network off a dataset of thousands of fruit images',
+    url: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

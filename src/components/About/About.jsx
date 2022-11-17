@@ -9,7 +9,7 @@ const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, resume } = about;  
   
-  const paragraphThree = ['I also hosted two own nationally successful cybersecurity competitions: ', <a href="https://pbjar.net/" target="_blank">PBJarCTF</a>, ' and ', <a href="https://killerqueenctf.org" target="_blank">Killer Queen CTF</a>, '. Designed challenges and administrated the competitions with over 3,000 participants and raised over $65,000 for Cybersecurity Education and #WomenWhoCode'];
+  const paragraphThree = ['In the past I helped launch Dupper Analytics, acting as its Vice President, writing software to help smaller and medium size businesses across the nation. Since then I have presented to many large tech corporations, hired students, and made entrepreneurship one of my greatest passions. I also hosted two own nationally successful cybersecurity competitions: ', <a href="https://pbjar.net/" target="_blank">PBJarCTF</a>, ' and ', <a href="https://killerqueenctf.org" target="_blank">Killer Queen CTF</a>, '. Designed challenges and administrated the competitions with over 3,000 participants, more than $2,800 dollars in cash prizes, as well as over $65,000 worth in cash from numerous tech company sponsors for cybersecurity education and women who code\n\n You can read some of the articles and blog posts I write ', <a href="https://squ1rrel.dev/author/ZeroDayTea/" target="_blank">here</a>];
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -67,70 +67,6 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-      </Container>
-      <Container className="mt-5">
-        <Title title="My Interests" />
-        <div className="cards-wrapper">
-          <Row xs={1} md={3} className="container">
-            <div className="card">
-              <div className={isDesktop ? 'face face1' : 'mobile-face'}>
-                <div className="content">
-                  <img
-                    alt="content"
-                    src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"
-                  />
-                  <h3>Design</h3>
-                </div>
-              </div>
-              <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
-                <div className="content">
-                  <p>
-                    Designed products and services and managed projects for two own startups and 
-                    designed many other apps and pieces of software to help lead a vision of a future in 
-                    technology
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="card active">
-              <div className={isDesktop ? 'face face1' : 'mobile-face'}>
-                <div className="content">
-                  <img
-                    alt="content"
-                    src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"
-                  />
-                  <h3>Code</h3>
-                </div>
-              </div>
-              <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
-                <div className="content">
-                  <p>
-                    Experience with programming and using several languages including C#, Python, Java, C++, Javascript, PHP, 
-                    CSS, SQL, HTML, a variety of frameworks, and currently learning C. Using code to help people as well as create a better future for our world.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className={isDesktop ? 'face face1' : 'mobile-face'}>
-                <div className="content">
-                  <img
-                    alt="content"
-                    src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"
-                  />
-                  <h3>Launch</h3>
-                </div>
-              </div>
-              <div className={isDesktop ? 'face face2' : 'mobile-face mobile-face2'}>
-                <div className="content">
-                  <p>
-                    Successfully launched several commercially successful apps, software applications, websites, and open-source projects while still in High School. Experience with managing projects, finances, testing, and deploying applications.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Row>
-        </div>
       </Container>
     </section>
   );

@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <Container>
+      {/*<Container>
         <div className="project-wrapper">
           <Title title="My Companies" />
           <Row xs={1} md={2} lg={2}>
@@ -89,12 +89,12 @@ const Projects = () => {
                     </div>
                   </div>
                 </Col>
-          </Row>
+            </Row>
         </div>
       </Container>
       <br></br>
       <br></br>
-      <br></br>
+      <br></br>*/}
       <Container>
         <div className="project-wrapper">
           <Title title="Notable Projects" />

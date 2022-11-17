@@ -12,7 +12,7 @@ const Contact = () => {
       <Container>
         <Title title="Awards and Certifications" />
         <div className="contact-wrapper">
-            <Fade bottom duration={1000} delay={800} distance="30px">
+            <Fade bottom duration={500} delay={500} distance="30px">
               <Row xs={2} md={2}>
                 <Col>
                   <ul>
@@ -39,11 +39,7 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;3rd Place National redpwnCTF</p>
-                          </li>
-                          <li>
-                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;3rd Place National NACTF</p>
+                            <p>&nbsp;&nbsp;3rd Place National redpwnCTF, NACTF</p>
                           </li>
                         </ul>
                       </div>
@@ -72,11 +68,7 @@ const Contact = () => {
                           </li>
                           <li>
                             <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;3rd Place State, Video Game Design </p>
-                          </li>
-                          <li>
-                            <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                            <p>&nbsp;&nbsp;3rd Place State, Webmaster x2 </p>
+                            <p>&nbsp;&nbsp;3rd Place State, Video Game Design, Webmaster (x2) </p>
                           </li>
                         </ul>
                       </div>
@@ -109,11 +101,7 @@ const Contact = () => {
                             </li>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                              <p>&nbsp;&nbsp;2nd Place Regionals, Astronomy</p>
-                            </li>
-                            <li>
-                              <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
-                              <p>&nbsp;&nbsp;2nd Place Regionals, Herpetology</p>
+                              <p>&nbsp;&nbsp;2nd Place Regionals, Astronomy, Herpetology</p>
                             </li>
                             <li>
                               <span><FontAwesomeIcon icon={faTrophy} size="2x" /></span>
@@ -153,17 +141,6 @@ const Contact = () => {
                     </div>
                   </li>
                   <li>
-                    <i className="fa fa-phone" />
-                    <div className="info">
-                      <h4 className="">Phone</h4>
-                      <span>
-                        <a className="" href="tel:+1-7204477515">
-                          +1 720-448-7515
-                        </a>
-                      </span>
-                    </div>
-                  </li>
-                  <li>
                     <i className="fa fa-envelope" />
                     <div className="info">
                       <h4>Email</h4>
@@ -183,7 +160,7 @@ const Contact = () => {
                     <div className="info">
                       <h4>Location</h4>
                       <span>
-                        <a>Castle Pines, Colorado</a>
+                        <a>Somewhere exploring Earth or the latent space</a>
                       </span>
                     </div>
                   </li>
